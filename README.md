@@ -6,8 +6,12 @@ DaCapo performance test suite with both interpreters in interpreter only mode (-
 ## Table 1 (-Xint)
 <img src="https://user-images.githubusercontent.com/33415010/34774613-f1541a52-f64a-11e7-943a-f57d12797612.png" />
 
+## Table 3
+<img src="https://user-images.githubusercontent.com/33415010/34774625-0035fdce-f64b-11e7-9f47-7329d6daa02f.png" />
 
-In interpreter mode (-Xint) the performance of the C++ interpreter varies between 35 and 50 percent of the performance of the template interpreter. In mixed mode (-Xmixed) a VM that runs with the C++ interpreter reaches from 45 up to 90 percent of the performance of a VM that runs with the template interpreter.
+In interpreter mode (-Xint) the performance of the C++ interpreter varies between 35 and 50 percent of the performance of the template interpreter. 
+
+In mixed mode (-Xmixed) a VM that runs with the C++ interpreter reaches from 45 up to 90 percent of the performance of a VM that runs with the template interpreter.
 
 
  
