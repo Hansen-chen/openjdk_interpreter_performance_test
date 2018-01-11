@@ -6,7 +6,7 @@ java -Xint -jar dacapo-9.12-bach.jar -s default avrora eclipse fop h2 jython lui
 benchmark causes error:
 batik
 
-Run all 13 benchmarks once to approximate teh performance.
+Run all 13 benchmarks once to approximate the performance.
 
 # Result
 If we eliminate the largest and smallest results, cpp interpreter's performance is around 80% ~ 103% to template interpreter's performance
