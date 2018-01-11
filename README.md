@@ -1,3 +1,8 @@
+# Performance test
+Command line:
+java -Xint -jar dacapo-9.12-bach.jar -s default -n 7 avrora batik eclipse fop h2 jython luindex lusearch pmd sunflow tomcat tradebeans tradesoap xalan
+
+
 # openjdk_interpreter_performance_test
 source: https://community.oracle.com/people/simonis/blog/2007/11/15/template-vs-c-interpreter-shootout?customTheme=otn
 DaCapo Download Link:http://www.dacapobench.org/
@@ -13,6 +18,7 @@ DaCapo performance test suite with both interpreters in interpreter only mode (-
 In interpreter mode (-Xint) the performance of the C++ interpreter varies between 35 and 50 percent of the performance of the template interpreter. 
 
 In mixed mode (-Xmixed) a VM that runs with the C++ interpreter reaches from 45 up to 90 percent of the performance of a VM that runs with the template interpreter.
+
 
 
  
