@@ -7,9 +7,9 @@ benchmark causes error:
 batik
 
 # Result
+<img src="https://user-images.githubusercontent.com/33415010/34829413-9cd8b7c2-f71b-11e7-96ed-049f5b26c86d.png" />
 
-
-# Screenshots
+If we eliminate the largest and smallest results, cpp interpreter's performance is around 80% ~ 103% to template interpreter's performance
 
 
 
