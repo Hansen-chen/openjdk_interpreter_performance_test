@@ -1,12 +1,12 @@
 # Performance test
 Command line:
 
-java -Xint -jar dacapo-9.12-bach.jar -s default avrora fop h2 jython luindex lusearch pmd sunflow tomcat tradebeans tradesoap xalan
+java -Xint -jar dacapo-9.12-bach.jar -s default avrora fop jython luindex lusearch pmd sunflow tradebeans tradesoap xalan
 
 benchmark causes error:
-batik eclipse
+batik eclipse h2 tomcat
 
-Run all 13 benchmarks once to approximate the performance.
+Run all 10 benchmarks once to approximate the performance.
 
 # Result
 If we eliminate the largest(1.55) and smallest results(0.71), cpp interpreter's performance is around 80% ~ 103% to template interpreter's performance according to time(msec)
