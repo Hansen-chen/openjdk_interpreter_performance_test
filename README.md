@@ -1,10 +1,10 @@
 # Performance test
 Command line:
 
-java -Xint -jar dacapo-9.12-bach.jar -s default avrora eclipse fop h2 jython luindex lusearch pmd sunflow tomcat tradebeans tradesoap xalan
+java -Xint -jar dacapo-9.12-bach.jar -s default avrora fop h2 jython luindex lusearch pmd sunflow tomcat tradebeans tradesoap xalan
 
 benchmark causes error:
-batik
+batik eclipse
 
 Run all 13 benchmarks once to approximate the performance.
 
